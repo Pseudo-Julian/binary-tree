@@ -98,11 +98,3 @@ class Tree:
             self.__del_one_child(sr, pr)
 
 
-v = [10, 5, 7, 16, 13, 2, 20]
-
-t = Tree()
-for x in v:
-    t.append(Node(x))
-
-t.del_node(5)
-t.show_wide_tree(t.root)
