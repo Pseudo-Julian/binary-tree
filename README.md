@@ -19,5 +19,6 @@ The project includes basic tree operations such as insertion, traversal, and del
 
 ### `Node`
 Represents a single element in the binary tree.
-
+```python
+node = Node(10)
 
